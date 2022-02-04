@@ -1,0 +1,21 @@
+CC = cl
+L = link
+CFLAGS = /nologo /W3
+
+all: bounds_static.exe
+
+bounds_static.exe: bounds.obj bounds_static.lib
+	$(CC) $**
+bounds_static.lib: max.obj min.obj
+	lib /out:$@ $**
+bound.obj: bounds.c
+	$(CC) $(CFLAGS) /c $** /Fo$@
+
+max.obj: max.c
+	$(CC) $(CFLAGS) /c $** /Fo$@
+	
+min.obj: min.c
+	$(CC) $(CFLAGS) /c $** /Fo$@
+	
+clean:
+	del /Q /F *.obj *.lib *.dll *.exe

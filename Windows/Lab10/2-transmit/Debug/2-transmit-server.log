@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (2-transmit-client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  2-transmit-server.vcxproj -> C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\Debug\2-transmit-server.exe

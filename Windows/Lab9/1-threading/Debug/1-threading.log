@@ -1,0 +1,6 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  threads.c
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab09\skel\win\1-threading\threads.c(15,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'LPVOID'
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab09\skel\win\1-threading\threads.c(32,2): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+threads.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  1-threading.vcxproj -> C:\Users\Andrei\Desktop\so-master\so-master\labs\lab09\skel\win\Debug\1-threading.exe

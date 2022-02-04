@@ -1,0 +1,24 @@
+CC = gcc
+CFLAGS = -Wall
+
+LDFLAGS = -L.
+
+all: main_static
+
+
+main_static: libhexdump_static.a main.c
+	$(CC) $(CFLAGS) main.c -lhexdump_static $(LDFLAGS) -o $@
+
+libhexdump_static.a: hexdump.o sample.o
+	ar rc libhexdump_static.a $^
+
+main.o: main.c
+	$(CC) $(CFLAGS) -c $^ -o $@
+hexdump.o: hexdump.c
+	$(CC) $(CFLAGS) -c $^ -o $@
+	
+sample.o: sample.c
+	$(CC) $(CFLAGS) -c $^ -o $@
+.PHONY:
+clean:
+	rm -f *.o main_static libhexdump_static.a

@@ -1,0 +1,5 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  aio.c
+LINK : warning LNK4076: invalid incremental status file 'Debug\3-aio.ilk' (which will be deleted); linking nonincrementally
+aio.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  3-aio.vcxproj -> C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\Debug\3-aio.exe

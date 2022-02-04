@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: The property "IntermediateOutputPath" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: The property "DebugType" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: The property "CleanFile" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  xmalloc.c
+  test.c
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab05\skel\win\malloc-wrapper\test.c(44,4): warning C4101: 'hProcessHeap': unreferenced local variable
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab05\skel\win\malloc-wrapper\test.c(44,4): warning C4101: 'bRet': unreferenced local variable
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab05\skel\win\malloc-wrapper\test.c(46,3): warning C4101: 'hProcessHeap': unreferenced local variable
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab05\skel\win\malloc-wrapper\test.c(46,3): warning C4101: 'bRet': unreferenced local variable
+  Generating Code...
+test.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  malloc-wrapper.vcxproj -> C:\Users\Andrei\Desktop\so-master\so-master\labs\lab05\skel\win\Debug\malloc-wrapper.exe

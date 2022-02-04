@@ -1,0 +1,15 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  iocp.c
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\4-iocp\iocp.c(21,7): warning C4047: 'function': 'ULONG_PTR' differs in levels of indirection from 'void *'
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\4-iocp\iocp.c(21,3): warning C4024: 'CreateIoCompletionPort': different types for formal and actual parameter 3
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\4-iocp\iocp.c(67,9): warning C4047: 'function': 'LPDWORD' differs in levels of indirection from 'PDWORD *'
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\4-iocp\iocp.c(67,3): warning C4024: 'GetQueuedCompletionStatus': different types for formal and actual parameter 2
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\4-iocp\iocp.c(68,7): warning C4047: 'function': 'PULONG_PTR' differs in levels of indirection from 'PULONG_PTR *'
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\4-iocp\iocp.c(68,3): warning C4024: 'GetQueuedCompletionStatus': different types for formal and actual parameter 3
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\4-iocp\iocp.c(69,6): warning C4047: 'function': 'LPOVERLAPPED *' differs in levels of indirection from 'LPOVERLAPPED **'
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\4-iocp\iocp.c(69,3): warning C4024: 'GetQueuedCompletionStatus': different types for formal and actual parameter 4
+  aio.c
+  Generating Code...
+LINK : warning LNK4076: invalid incremental status file 'Debug\4-iocp.ilk' (which will be deleted); linking nonincrementally
+aio.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  4-iocp.vcxproj -> C:\Users\Andrei\Desktop\so-master\so-master\labs\lab10\skel\lab-10\Debug\4-iocp.exe

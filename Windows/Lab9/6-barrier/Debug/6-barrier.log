@@ -1,0 +1,4 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  barrier.c
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab09\skel\win\6-barrier\barrier.c(121,2): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  6-barrier.vcxproj -> C:\Users\Andrei\Desktop\so-master\so-master\labs\lab09\skel\win\Debug\6-barrier.exe

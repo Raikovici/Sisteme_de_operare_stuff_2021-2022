@@ -1,0 +1,12 @@
+CFLAGS=/nologo /W4 /EHsc /Za
+CC=cl
+
+main.exe: main.obj add.obj
+	$(CC) $(CFLAGS) $** /Fe$@
+
+main.obj: main.c
+	$(CC) $(CFLAGS) /c $** /Fo$@
+add.obj: add.c
+	$(CC) $(CFLAGS) /c $** /Fo$@
+clean:
+	del *.obj *.exe

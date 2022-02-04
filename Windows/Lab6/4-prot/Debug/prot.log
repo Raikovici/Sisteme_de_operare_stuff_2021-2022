@@ -1,0 +1,4 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  libvm.c
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab06\skel\win\4-prot\libvm.c(38,68): error C2069: cast of 'void' term to non-'void'
+C:\Users\Andrei\Desktop\so-master\so-master\labs\lab06\skel\win\4-prot\libvm.c(64,1): error C2036: 'PVOID': unknown size

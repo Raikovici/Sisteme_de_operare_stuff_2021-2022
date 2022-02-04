@@ -1,0 +1,7 @@
+﻿  hashmap.c
+C:\Users\raicu\Desktop\so-master\assignments\1-multi\tema1\tema1\hashmap.h(5,24): warning C4091: 'typedef ': ignored on left of 'dataItem' when no variable is declared
+C:\Users\raicu\Desktop\so-master\assignments\1-multi\tema1\tema1\hashmap.c(16,33): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\raicu\Desktop\so-master\assignments\1-multi\tema1\tema1\hashmap.c(24,7): warning C4013: 'free' undefined; assuming extern returning int
+C:\Users\raicu\Desktop\so-master\assignments\1-multi\tema1\tema1\hashmap.c(40,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\raicu\Desktop\so-master\assignments\1-multi\tema1\tema1\hashmap.c(47,13): warning C4013: 'strcmp' undefined; assuming extern returning int
+  tema1.vcxproj -> C:\Users\raicu\Desktop\so-master\assignments\1-multi\tema1\Debug\tema1.exe
